@@ -1,1 +1,151 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+  background-color: #37517e;
+  color: white;
+}
+
+.main-container {
+  background-color: white;
+  color: black
+}
+
+nav {
+  /* background-color: rgba(40, 58, 90, 0.9); */
+  background-color: #37517e;
+}
+
+header {
+  background-color: #37517e;
+  color: white;
+}
+
+/* Navigation button / links */
+.btn-outline-light,
+.dropdown-item {
+  color: #37517e;
+}
+
+.btn-started {
+  font-weight: 500;
+  padding: 7px 20px;
+  border-width: 2px;
+}
+
+.section {
+  background-color: white;
+  color: #fff;
+}
+
+.btn,
+.btn:hover {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-brand,
+.navbar-light .navbar-brand:hover,
+.navbar-light .navbar-brand:focus {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link,
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #47b2e4;
+}
+
+.btn-outline-primary,
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+  color: white;
+  border-color: #47b2e4;
+  background-color: transparent;
+}
+
+.btn-outline-primary:hover,
+.btn-primary {
+  background-color: #47b2e4;
+  border-color: #47b2e4;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.active {
+  background-color: #209dd8;
+  border-color: #209dd8;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: #47b2e4;
+  background-color: #fff;
+}
+
+.dropdown-item:active {
+  color: #37517e;
+  text-decoration: none;
+  background-color: #fff;
+}
+
+.dropdown-menu.show {
+  display: inline-block;
+}
+
+.navbar-light .navbar-toggler,
+.navbar-toggler:focus {
+  /* color: white; */
+  border-color: transparent;
+  box-shadow: none;
+}
+
+.navbar li {
+  padding-left: 30px !important;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+.icons {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: transparent;
+  border: 2px solid white;
+  fill: white;
+}
+
+.icon-video-play svg:hover {
+  border: 2px solid #47b2e4;
+  fill: #47b2e4;
+}
+
+/* heading */
+h1 {
+  font-size: calc(2rem + 1.5vw);
+  font-weight: 700;
+}
+
+h1 .heading--1 {
+  padding: 10px;
+
+}
+
+h3 {
+  font-size: calc(1rem + .6vw);
+  color: rgba(255, 255, 255, 0.6);
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+/* .container-fluid {
+  padding: 8px 0px;
+} */
